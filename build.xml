@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="searchhistory" default="all">  
+  
+    <target name="init" description="Build initialization" />
+
+    <target name="clean" description="cleanup all"/>
+
+    <target name="compile" description="compile all"/>
+    
+    <target name="test" description="run all the tests"/>
+    
+    <target name="all" depends="init, clean, compile, test" description="build all">
+    </target>
+</project>
