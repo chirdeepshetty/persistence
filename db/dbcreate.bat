@@ -1,0 +1,1 @@
+sqlite3.exe groupHistory.db < commands.sql
