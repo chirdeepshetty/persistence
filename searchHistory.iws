@@ -54,28 +54,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="persistence.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/persistence.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaErlangInterfaceServer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JavaErlangInterfaceServer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/server/JavaErlangInterfaceServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="9" column="13" selection-start="266" selection-end="266" vertical-scroll-proportion="-0.93670887">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/util/PropertyReader.java">
+      <file leaf-file-name="JavaEralngInterfaceServerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/JavaEralngInterfaceServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/server/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchHistory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/domain/SearchHistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,28 +99,17 @@
       <file leaf-file-name="Repository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/repository/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="6" column="19" selection-start="210" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/repository/IRepository.java">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyReaderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/PropertyReaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="76" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +117,7 @@
       <file leaf-file-name="SearchHistoryTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/SearchHistoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="13" column="9" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="PropertyReaderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/PropertyReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="167" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.42587602">
+            <state line="12" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -312,6 +316,32 @@
           <option name="myItemId" value="searchHistory" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="repository" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="searchHistory" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="searchHistory" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="persistence" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="searchHistory" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
     </subPane>
   </component>
@@ -357,19 +387,19 @@
       <recent name="com.tw.searchHistory.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PropertyReaderTest.shouldAbleToReadAllTheProperties">
-    <tempConfiguration default="false" name="PropertyReaderTest.shouldAbleToReadAllTheProperties" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+  <component name="RunManager" selected="JUnit.JavaEralngInterfaceServerTest">
+    <tempConfiguration default="false" name="JavaEralngInterfaceServerTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
       <pattern>
-        <option name="PATTERN" value="util.*" />
+        <option name="PATTERN" value="com.tw.searchHistoryTest.*" />
         <option name="ENABLED" value="true" />
       </pattern>
       <module name="searchHistory" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tw.searchHistoryTest" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.searchHistoryTest.PropertyReaderTest" />
-      <option name="METHOD_NAME" value="shouldAbleToReadAllTheProperties" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.searchHistoryTest.JavaEralngInterfaceServerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -437,8 +467,72 @@
       </option>
       <envs />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PropertyReaderTest.shouldAbleToReadAllTheProperties" />
+    <configuration default="false" name="JavaEralngInterfaceServerTest.serverCreationTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+      <pattern>
+        <option name="PATTERN" value="com.tw.searchHistoryTest.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <module name="searchHistory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.searchHistoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.searchHistoryTest.JavaEralngInterfaceServerTest" />
+      <option name="METHOD_NAME" value="serverCreationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="JavaEralngInterfaceServerTest.shouldMapTupleToSearchHistoryDomain" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
+      <pattern>
+        <option name="PATTERN" value="com.tw.searchHistoryTest.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <module name="searchHistory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tw.searchHistoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.searchHistoryTest.JavaEralngInterfaceServerTest" />
+      <option name="METHOD_NAME" value="shouldMapTupleToSearchHistoryDomain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3172" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JavaEralngInterfaceServerTest.thing" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JavaEralngInterfaceServerTest.shouldCallRepositorySave" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JavaEralngInterfaceServerTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -486,7 +580,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1448" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -495,7 +589,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6611111" order="0" side_tool="false" />
@@ -545,105 +639,123 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/OtpErlang.jar!/com/ericsson/otp/erlang/AbstractNode.class">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/OtpErlang.jar!/com/ericsson/otp/erlang/OtpLocalNode.class">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/OtpErlang.jar!/com/ericsson/otp/erlang/OtpNode.class">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="58" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="12" column="16" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="24" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/OtpErlang.jar!/com/ericsson/otp/erlang/OtpErlangString.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.5.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/domain/SearchHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.5.0_12/jre/lib/rt.jar!/java/util/ResourceBundle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.10487445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jmock-junit4-2.5.1.jar!/org/jmock/integration/junit4/JUnit4Mockery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistence.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/repository/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+        <state line="6" column="19" selection-start="210" selection-end="214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/repository/IRepository.java">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/server/JavaErlangInterfaceServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/SearchHistoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+        <state line="13" column="9" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/util/PropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/PropertyReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="76" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/tw/searchHistoryTest/JavaEralngInterfaceServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="167" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.42587602">
-          <folding />
+        <state line="8" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tw/searchHistory/server/JavaErlangInterfaceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="266" selection-end="266" vertical-scroll-proportion="-0.93670887">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
