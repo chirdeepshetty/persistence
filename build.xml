@@ -1,14 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="searchhistory" default="all">  
-  
-    <target name="init" description="Build initialization" />
+<project name="persistence" default="all">
 
-    <target name="clean" description="cleanup all"/>
+    <property name="build.dir" value="."/>
 
-    <target name="compile" description="compile all"/>
+    <path id="class.path">
+        <fileset dir="${build.dir}/lib">
+          <include name="**/*.jar"/>          
+        </fileset>
+         <dirset dir="${build.dir}">
+          <include name="out"/>
+          <include name="testout"/>
+        </dirset>
+      </path>
+
+    <target name="init" description="Build initialization">        
+        <mkdir dir="${build.dir}/out"/>
+        <mkdir dir="${build.dir}/testout"/>
+        <mkdir dir="${build.dir}/jar"/>
+        <property name="project_name"   value="persistence"/>
+    </target>
+
+    <target name="clean" description="cleanup all">
+        <delete dir="${build.dir}/out"/>
+        <delete dir="${build.dir}/testout"/>        
+        <delete dir="${build.dir}/jar"/>
+    </target>
+
+    <target name="compile" description="compile all">
+        <javac destdir="${build.dir}/out">
+          <src path="src"/>
+          <exclude name="**/_*.java"/>
+          <classpath refid="class.path"/>
+        </javac>
+        <copy todir="${build.dir}/out">
+          <fileset dir="${build.dir}/src">
+            <include name="**/*.properties"/>
+          </fileset>
+        </copy>
+    </target>
+
+    <target name="compile-test" description="compile all">
+        <javac destdir="${build.dir}/testout">
+          <src path="test"/>
+          <exclude name="**/_*.java"/>
+          <classpath refid="class.path"/>
+        </javac>
+        <copy todir="${build.dir}/testout">
+          <fileset dir="${build.dir}/src">
+            <include name="**/*.properties"/>
+          </fileset>
+        </copy>
+    </target>
     
-    <target name="test" description="run all the tests"/>
-    
-    <target name="all" depends="init, clean, compile, test" description="build all">
+    <target name="test" depends="compile, compile-test" description="run all the tests">
+        <junit printsummary="yes" haltonfailure="yes" showoutput="yes" >
+        <classpath refid="class.path"/>
+          <batchtest fork="yes" todir="${build.dir}/testout">
+            <formatter type="xml"/>
+            <fileset dir="${build.dir}/test">
+              <include name="**/*.java"/>
+            </fileset>
+          </batchtest>
+        </junit>
+    </target>    
+
+    <target name="make_jar" depends="compile">
+        <jar basedir="${build.dir}/out"
+             jarfile="${build.dir}/jar/${project_name}.jar"
+             manifest="${build.dir}/${project_name}.manifest"
+             includes="**/*.*"/>
+        <copy todir="${build.dir}/jar">
+          <fileset dir="${build.dir}/lib">
+            <include name="**/*.jar"/>
+            <include name="**/*.zip"/>
+          </fileset>
+        </copy>
+      </target>
+
+    <target name="all" depends="clean, init, compile, test, make_jar" description="build all">
     </target>
 </project>
