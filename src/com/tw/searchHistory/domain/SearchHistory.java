@@ -1,14 +1,65 @@
 package com.tw.searchHistory.domain;
 
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 public class SearchHistory {
+    private static final long serialVersionUID = 1L;
+    private long id = 1L;
     private String ipAddress;
     private String searchString;
-    private String dateTime;
+    private Date dateTime;
 
-    public SearchHistory(String ipAddress, String searchString, String dateTime) {
+    public void setFormattedDateTime(String formattedDateTime) {
+        this.formattedDateTime = formattedDateTime;
+    }
+
+    private String formattedDateTime;
+
+    public String getFormattedDateTime() {
+        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(dateTime);
+    }    
+
+    private SearchHistory(){
+
+    }
+
+    public SearchHistory(String ipAddress, String searchString, Date dateTime) {
 
         this.ipAddress = ipAddress;
         this.searchString = searchString;
+        this.dateTime = dateTime;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getIpAddress() {
+        return ipAddress;
+    }
+
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
+
+    public String getSearchString() {
+        return searchString;
+    }
+
+    public void setSearchString(String searchString) {
+        this.searchString = searchString;
+    }
+
+    public Date getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(Date dateTime) {
         this.dateTime = dateTime;
     }
 

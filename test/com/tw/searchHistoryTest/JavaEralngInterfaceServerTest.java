@@ -13,6 +13,9 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Before;
 
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
+
 public class JavaEralngInterfaceServerTest {
     private JUnit4Mockery mockery;
     private IRepository repository;
@@ -26,24 +29,42 @@ public class JavaEralngInterfaceServerTest {
         repository = mockery.mock(IRepository.class);
         inbox = mockery.mock(OtpInbox.class);
         server = new JavaErlangInterfaceServer(inbox, repository);
-        erlangTuple = new OtpErlangTuple(new OtpErlangString[]{new OtpErlangString("ip"), new OtpErlangString("query"), new OtpErlangString("time")});
+        erlangTuple = new OtpErlangTuple(new OtpErlangString[]{new OtpErlangString("ip"), new OtpErlangString("query"), new OtpErlangString("2009-7-2 11:7:4")});
          mockery.checking(new Expectations(){{
-            oneOf(repository).Save(new SearchHistory("ip", "query", "time"));
-            oneOf(inbox).receive();
+             try {
+                 oneOf(repository).save(new SearchHistory("ip", "query", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2009-7-2 11:7:4")));
+             } catch (ParseException e) {
+                 e.printStackTrace();
+             }
+             oneOf(inbox).receive();
             will(returnValue(erlangTuple));
         }});
     }
 
     @Test
     public void shouldMapTupleToSearchHistoryDomain(){
-        SearchHistory actual = server.toSearchHistory(erlangTuple);
-        SearchHistory expected = new SearchHistory("ip", "query", "time");
+        SearchHistory actual = null;
+        try {
+            actual = server.toSearchHistory(erlangTuple);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        SearchHistory expected = null;
+        try {
+            expected = new SearchHistory("ip", "query", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2009-7-2 11:7:4"));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
         assertEquals(expected, actual);
     }
 
     @Test
     public void shouldProcessAndSaveCallRepositorySave(){
-        server.recieveMessageAndSave();
+        try {
+            server.recieveMessageAndSave();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         mockery.assertIsSatisfied();
     }
 }

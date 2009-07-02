@@ -1,0 +1,2 @@
+Main-Class: com.tw.searchHistory.server.Main
+Class-Path: OtpErlang.jar sqlite-jdbc-3.6.0.jar hibernate3.jar dom4j-1.6.1.jar log4j-1.2.9.jar commons-logging-1.0.4.jar commons-collections-2.1.1.jar ehcache-1.1.jar cglib-2.1.3.jar asm.jar asm-attrs.jar jta.jar

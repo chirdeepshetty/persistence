@@ -35,6 +35,8 @@
         <copy todir="${build.dir}/out">
           <fileset dir="${build.dir}/src">
             <include name="**/*.properties"/>
+            <include name="**/*.xml"/>
+            <include name="../*.db"/>
           </fileset>
         </copy>
     </target>
