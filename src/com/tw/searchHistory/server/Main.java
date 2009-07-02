@@ -9,6 +9,6 @@ import java.io.IOException;
 public class Main {  
 
     public static void main(String args[]) throws IOException{
-        new JavaErlangInterfaceServer(new PropertyReader(), new Repository()).run();   
+        new JavaErlangInterfaceServer(InboxFactory.createInbox(new PropertyReader()), new Repository()).run();   
     }
 }
