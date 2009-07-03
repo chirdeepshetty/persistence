@@ -2,6 +2,8 @@
 <project name="persistence" default="all">
 
     <property name="build.dir" value="."/>
+    <property name="db.dir" value="${build.dir}/db"/>
+		<property name="deploy.dir" value="c:\persistence"/>
 
     <path id="class.path">
         <fileset dir="${build.dir}/lib">
@@ -80,5 +82,19 @@
       </target>
 
     <target name="all" depends="clean, init, compile, test, make_jar" description="build all">
+    </target>
+
+    <target name="deploy">
+				<copy todir="${deploy.dir}">
+					<fileset dir="${build.dir}/jar">
+						<include name="**/*.jar"/>
+					</fileset>
+					<fileset dir="${db.dir}">
+						<include name="**/*.db"/>
+					</fileset>
+				</copy>
+				
+				<java jar="${deploy.dir}/persistence.jar">
+				</java>
     </target>
 </project>
