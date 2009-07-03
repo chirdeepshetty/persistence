@@ -94,7 +94,7 @@
 					</fileset>
 				</copy>
 				
-				<java jar="${deploy.dir}/persistence.jar">
+				<java jar="${deploy.dir}/persistence.jar" fork="true">
 				</java>
     </target>
 </project>
