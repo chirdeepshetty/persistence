@@ -89,9 +89,6 @@
 					<fileset dir="${build.dir}/jar">
 						<include name="**/*.jar"/>
 					</fileset>
-					<fileset dir="${db.dir}">
-						<include name="**/*.db"/>
-					</fileset>
 				</copy>
 				
 				<java jar="${deploy.dir}/persistence.jar" fork="true">
